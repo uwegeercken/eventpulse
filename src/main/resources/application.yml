@@ -1,0 +1,12 @@
+app:
+  name: "eventpulse"
+  version: "v1.0"
+  date: "2025-10-24"
+  loadDataOnStartup: false
+
+logging:
+  level:
+    root: WARN                     # Set root logging level to WARN
+    com.datamelt: DEBUG            # Keep your application's logging at DEBUG
+    org.springframework: ERROR       # Suppress Spring logs
+
